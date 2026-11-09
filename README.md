@@ -20,3 +20,7 @@
 ## 5.Contains Duplicate 
 - Approach: Use a set to track previously seen numbers and return `True` when a duplicate is encountered.
 - Concepts: Sets, , list traversal, conditionals
+
+## 6.Valid Anagram
+- Approach: Use Python's "Counter" to count character frequencies in both strings and compare the counts to determine whether they are anagrams.
+- Concepts: Dictionaries, character frequency counting, Counter, string comparison, conditionals, Boolean values.
