@@ -24,3 +24,7 @@
 ## 6.Valid Anagram
 - Approach: Use Python's "Counter" to count character frequencies in both strings and compare the counts to determine whether they are anagrams.
 - Concepts: Dictionaries, character frequency counting, Counter, string comparison, conditionals, Boolean values.
+
+## 7.Single Number
+- Approach: Use "Counter"to count the frequency of each number, then iterate through the dictionary using ".items()" to find the number that appears only once.
+- Concepts: Counter(), dictionary key-value pairs, .items(), for loop, conditional statement ("if").
