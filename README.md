@@ -28,3 +28,7 @@
 ## 7.Single Number
 - Approach: Use "Counter"to count the frequency of each number, then iterate through the dictionary using ".items()" to find the number that appears only once.
 - Concepts: Counter(), dictionary key-value pairs, .items(), for loop, conditional statement ("if").
+
+## 8.Count Zeros
+- Approach: Move all non-zero elements to the front using a pointer `k`, then fill the remaining positions with zeros. This preserves the original order of non-zero elements.
+- Concepts: Arrays, in-place modification, index tracking, two pointers, "range(start, end)", two-pass approach, overwriting elements.
